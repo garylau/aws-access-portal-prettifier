@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AWS Access Portal Prettifier",
+  "version": "1.0",
+  "description": "Prettifies the AWS access portal with orange card styling",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.awsapps.com/*",
+        "https://*.awsapps.cn/*"
+      ],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://*.awsapps.com/*",
+        "https://*.awsapps.cn/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
