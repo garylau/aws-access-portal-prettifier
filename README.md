@@ -2,7 +2,7 @@
 
 A Chrome extension that transforms the default AWS IAM Identity Center (SSO) access portal into a clean, card-based interface.
 
-![Screenshot](screenshot-1280x800.png)
+![Screenshot](docs/screenshot-1280x800.png)
 
 ## Features
 
@@ -20,7 +20,7 @@ A Chrome extension that transforms the default AWS IAM Identity Center (SSO) acc
 
 ### Chrome Web Store
 
-Coming soon.
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/aws-access-portal-prettif/anpihkmkginehcneikckehbkbbodonaj)
 
 ### Manual
 
@@ -38,7 +38,7 @@ Coming soon.
 
 ## Privacy
 
-No data is collected or transmitted. Preferences (card size, last-used role) are stored in `localStorage` only. See [Privacy Policy](PRIVACY.md).
+No data is collected or transmitted. Preferences (card size, last-used role) are stored in `localStorage` only. See [Privacy Policy](docs/PRIVACY.md).
 
 ## License
 

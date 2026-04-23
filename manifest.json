@@ -4,9 +4,9 @@
   "version": "1.0",
   "description": "Prettifies the AWS access portal with orange card styling",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {
@@ -14,7 +14,7 @@
         "https://*.awsapps.com/*",
         "https://*.awsapps.cn/*"
       ],
-      "css": ["styles.css"],
+      "css": ["src/styles.css"],
       "run_at": "document_start"
     },
     {
@@ -22,7 +22,7 @@
         "https://*.awsapps.com/*",
         "https://*.awsapps.cn/*"
       ],
-      "js": ["content.js"],
+      "js": ["src/content.js"],
       "run_at": "document_idle"
     }
   ],
