@@ -8,7 +8,7 @@
 
   function parseRow(tr) {
     const nameEl = tr.querySelector('[data-testid="account-list-cell"]');
-    const idEl = tr.querySelector('[class*="text-to-copy"]');
+    const idEl = tr.querySelector('[data-testid="account-federation-link"]');
     return {
       name: nameEl?.textContent.trim() || '',
       id: idEl?.textContent.trim() || ''
